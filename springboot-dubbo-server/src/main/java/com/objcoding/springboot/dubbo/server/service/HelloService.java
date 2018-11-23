@@ -5,5 +5,5 @@ package com.objcoding.springboot.dubbo.server.service;
  * @since 2018/11/22
  */
 public interface HelloService {
-    String SayHello(String name);
+    String sayHello(String name);
 }
