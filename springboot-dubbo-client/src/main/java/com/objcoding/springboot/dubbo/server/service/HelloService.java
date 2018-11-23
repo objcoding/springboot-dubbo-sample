@@ -1,9 +1,9 @@
-package com.objcoding.springboot.dubbo.client.controller;
+package com.objcoding.springboot.dubbo.server.service;
 
 /**
  * @author zhangchenghui.dev@gmail.com
  * @since 2018/11/23
  */
 public interface HelloService {
-    String SayHello(String name);
+    String sayHello(String name);
 }
