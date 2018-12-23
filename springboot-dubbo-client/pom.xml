@@ -52,6 +52,12 @@
             <artifactId>log4j</artifactId>
             <scope>compile</scope>
         </dependency>
+
+        <dependency>
+            <groupId>com.objcoding</groupId>
+            <artifactId>springboot-dubbo-facade</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
     <build>

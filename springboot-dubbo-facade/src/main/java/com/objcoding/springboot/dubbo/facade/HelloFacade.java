@@ -1,4 +1,4 @@
-package com.objcoding.springboot.dubbo.api;
+package com.objcoding.springboot.dubbo.facade;
 
 /**
  * @author zhangchenghui.dev@gmail.com
