@@ -19,10 +19,6 @@ public class HelloFacadeImpl implements HelloFacade {
     private String serviceName;
 
     public String sayHello(String name) {
-
-
-
-
         return String.format("[%s] : Hello, %s", serviceName, name);
     }
 }
