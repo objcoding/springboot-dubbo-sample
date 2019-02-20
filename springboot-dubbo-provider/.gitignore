@@ -27,3 +27,4 @@
 .mvn/
 mvnw
 *.cmd
+/target
