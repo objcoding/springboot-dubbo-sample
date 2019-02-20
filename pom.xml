@@ -5,12 +5,13 @@
 
     <groupId>com.objcoding</groupId>
     <artifactId>springboot-dubbo-sample</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <properties>
+        <project.version>1.0.0-SNAPSHOT</project.version>
         <dubbo.version>2.7.0</dubbo.version>
-        <dubbo_api.version>0.0.1-SNAPSHOT</dubbo_api.version>
+        <dubbo_api.version>1.0.0-SNAPSHOT</dubbo_api.version>
         <zookeeper.version>3.4.9</zookeeper.version>
         <curator.version>2.11.0</curator.version>
         <springboot.version>1.5.19.RELEASE</springboot.version>
