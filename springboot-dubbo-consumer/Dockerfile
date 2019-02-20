@@ -9,5 +9,5 @@ ENV ACTIVE $ACTIVE
 COPY target/springboot-dubbo-consumer-1.0.0-SNAPSHOT.jar /app.jar
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
-EXPOSE 12346 8080
+EXPOSE 12346
 ENTRYPOINT ["sh", "-c", "java -Xms128M -Xmx128M -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/chaos/heap_dump -Dspring.profiles.active=$ACTIVE -jar /app.jar"]
